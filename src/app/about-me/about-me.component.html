@@ -1,0 +1,22 @@
+<div class="about-container">
+  <h1>About Me</h1>
+<img src="assets/sunil.jpeg" alt="Vishal" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <section class="bio">
+    <h2>Bio</h2>
+    <p>{{ bio }}</p>
+  </section>
+
+  <section class="strengths">
+    <h2>Strengths</h2>
+    <ul>
+      <li *ngFor="let strength of strengths">{{ strength }}</li>
+    </ul>
+  </section>
+
+  <section class="weaknesses">
+    <h2>Weaknesses</h2>
+    <ul>
+      <li *ngFor="let weakness of weaknesses">{{ weakness }}</li>
+    </ul>
+  </section>
+</div>
